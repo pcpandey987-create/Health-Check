@@ -4,7 +4,6 @@ import shutil
 import socket
 import psutil
 
-# Define thresholds
 CPU_THRESHOLD = 80.0  # Percentage
 RAM_THRESHOLD = 80.0  # Percentage
 DISK_THRESHOLD = 80.0 # Percentage
