@@ -39,7 +39,7 @@ def check_network():
 
 def main():
     print("--- Starting PC Health Check ---\n")
-    
+
     checks = [check_cpu(), check_ram(), check_disk(), check_network()]
     system_healthy = True
 
